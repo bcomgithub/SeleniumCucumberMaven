@@ -16,7 +16,7 @@ public class Homepage {
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\" + "chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.navigate().to("https://www.qa14codebloomingdales.fds.com/");
+        driver.navigate().to("https://www.bloomingdales.com/");
     }
 
     @When("^I search for a product$")
